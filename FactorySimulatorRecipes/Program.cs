@@ -9,19 +9,10 @@ namespace FactorySimulatorRecipes
     {
         public static void Main(string[] args)
         {
-            // var outputs = new Dictionary<Component, int>
-            // {
-            //     {
-            //         new HeatingElement(), 10
-            //     }
-            // };
-            //
-            // Console.WriteLine(RenderRecipe(new Recipe(outputs).BaseIngredients));
-
             var outputs = new Dictionary<Component, double>
             {
                 {
-                    new Mouse(), 10
+                    new HeatingElement(), 34
                 }
             };
 

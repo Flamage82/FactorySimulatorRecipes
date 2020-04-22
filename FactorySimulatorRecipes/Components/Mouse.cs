@@ -2,6 +2,8 @@ namespace FactorySimulatorRecipes.Components
 {
     public class Mouse : Component
     {
+        public override ComponentType Type { get; } = ComponentType.Mouse;
+
         public Mouse()
         {
             Components.Add(new Circuit1(), 1);
